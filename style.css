@@ -1,0 +1,194 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    /* padding: 0; */
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.logo {
+    color: black;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.nav_linkes {
+    display: grid;
+    height: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 10px; */
+
+}
+
+.link1 a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 1.3s ease;
+}
+
+.link2 a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 1.3s ease;
+
+}
+
+.link3 a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 1.3s ease;
+    background-color: black;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
+
+
+.nav_linkes a:hover {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 400px;
+    padding-top: 200px;
+}
+
+.main .main-text {
+    font-size: 90px;
+    font-family: "Noto Serif", serif;
+
+}
+
+.h1 {
+    border: 3px solid;
+}
+
+.h2 {
+    border: 3px solid;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Playwrite AU NSW", cursive;
+
+}
+
+
+
+.store-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Noto Serif", serif;
+    font-size: 80px;
+    padding: 50px;
+}
+
+
+
+
+.main-card {
+    margin: 110px 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.main-card article {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px 6px rgb(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    transition: 0.8s ease;
+}
+
+.main-card article:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 6px 6px rgb(0, 0, 0, 0.5);
+
+}
+
+
+.main-card article img {
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-text {
+    padding: 0 20px 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-text h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.card-text p {
+    padding-bottom: 15px;
+}
+
+.button-card {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    /* margin: 30px; */
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+
+
+.button-card:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
